@@ -18,7 +18,7 @@ function Lane(y, parentEle) {
     this.element.setAttribute('class', 'ele');
     this.element.style.width = WIDTH + 'px';
     this.element.style.height = HEIGHT + '%';
-    this.element.style.backgroundImage = "url('../images/laneBackground.png')";
+    this.element.style.backgroundImage = "url('./images/laneBackground.png')";
     this.element.style.position = 'absolute';
     this.element.style.backgroundSize = '600px';
     this.element.style.backgroundRepeat = 'repeat-y';

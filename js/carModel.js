@@ -4,7 +4,7 @@ function Car(carWrapper) {
 
   this.init = function() {
     this.carElement= document.createElement('img');
-    this.carElement.setAttribute('src', "../images/images.png");
+    this.carElement.setAttribute('src', "./images/images.png");
     this.carElement.style.backgroundRepeat =  'no-repeat';
     this.carElement.style.height = CARHEIGHT + 'px';
     this.carElement.style.width = CARWIDTH + 'px';

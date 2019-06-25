@@ -4,7 +4,7 @@ function CreateObstacle(x,parentEle){
 
   this.init = function(pos) {
     this.obstacleElement = document.createElement('img');
-    this.obstacleElement.setAttribute('src', "../images/simple.png");
+    this.obstacleElement.setAttribute('src', "./images/simple.png");
     this.obstacleElement.style.backgroundRepeat =  'no-repeat';
     this.obstacleElement.style.height = CARHEIGHT + 'px';
     this.obstacleElement.style.width = CARWIDTH + 'px';
